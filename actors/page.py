@@ -5,7 +5,7 @@ from st_aggrid import AgGrid
 
 actors = [
     {
-        'id':1,
+        'id': 1,
         'name': 'Leonardo DiCaprio'
     },
     {
@@ -23,7 +23,7 @@ def show_actors():
     st.write('Lista de Atores:')
 
     AgGrid(
-        data = pd.DataFrame(actors),
+        data=pd.DataFrame(actors),
         reload_data=True,
         enableSorting=True,
         key='actors_grid',

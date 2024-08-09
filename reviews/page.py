@@ -5,7 +5,7 @@ from st_aggrid import AgGrid
 
 reviews = [
     {
-        'id':1,
+        'id': 1,
         'stars': '5'
     },
     {
@@ -23,7 +23,7 @@ def show_reviews():
     st.write('Lista de Avaliacoes:')
 
     AgGrid(
-        data = pd.DataFrame(reviews),
+        data=pd.DataFrame(reviews),
         reload_data=True,
         enableSorting=True,
         key='reviews_grid',

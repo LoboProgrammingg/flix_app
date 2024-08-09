@@ -5,7 +5,7 @@ from st_aggrid import AgGrid
 
 genres = [
     {
-        'id':1,
+        'id': 1,
         'name': 'Acao'
     },
     {
@@ -18,11 +18,12 @@ genres = [
     },
 ]
 
+
 def show_genres():
     st.write('Lista de Generos')
 
     AgGrid(
-        data = pd.DataFrame(genres),
+        data=pd.DataFrame(genres),
         reload_data=True,
         enableSorting=True,
         key='genres_grid',

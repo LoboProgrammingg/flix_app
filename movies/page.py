@@ -5,7 +5,7 @@ from st_aggrid import AgGrid
 
 movies = [
     {
-        'id':1,
+        'id': 1,
         'name': 'Titanic'
     },
     {
@@ -23,7 +23,7 @@ def show_movies():
     st.write('Lista de Filmes:')
 
     AgGrid(
-        data = pd.DataFrame(movies),
+        data=pd.DataFrame(movies),
         reload_data=True,
         enableSorting=True,
         key='movies_grid',
