@@ -4,6 +4,7 @@ from login.service import logout
 
 
 class GenreRepository:
+
     def __init__(self):
         self.__base_url = 'https://kirislar.pythonanywhere.com/api/v1/'
         self.__genres_url = f'{self.__base_url}genres/'
@@ -34,4 +35,4 @@ class GenreRepository:
         if response.status_code == 401:
             logout()
             return None
-        raise Exception(f'Erro ao obter dados da API. Status code: {response.status_code}')
+        raise Exception(f'Erro ao cadastrar dados na API. Status code: {response.status_code}')

@@ -1,6 +1,7 @@
 import streamlit as st
-from genres.page import show_genres
 from actors.page import show_actors
+from genres.page import show_genres
+from home.page import show_home
 from login.page import show_login
 from movies.page import show_movies
 from reviews.page import show_reviews
@@ -13,14 +14,14 @@ def main():
         st.title('Flix App')
 
         menu_option = st.sidebar.selectbox(
-            'Selecione Uma opcao',
-            ['Inicio', 'Generos', 'Atores/Atrizes', 'Filmes', 'Avaliacoes']
+            'Selecione uma opção',
+            ['Início', 'Gêneros', 'Atores/Atrizes', 'Filmes', 'Avaliações']
         )
 
-        if menu_option == 'Inicio':
-            st.write('Inicio')
+        if menu_option == 'Início':
+            show_home()
 
-        if menu_option == 'Generos':
+        if menu_option == 'Gêneros':
             show_genres()
 
         if menu_option == 'Atores/Atrizes':
@@ -29,7 +30,7 @@ def main():
         if menu_option == 'Filmes':
             show_movies()
 
-        if menu_option == 'Avaliacoes':
+        if menu_option == 'Avaliações':
             show_reviews()
 
 

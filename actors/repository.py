@@ -4,6 +4,7 @@ from login.service import logout
 
 
 class ActorRepository:
+
     def __init__(self):
         self.__base_url = 'https://kirislar.pythonanywhere.com/api/v1/'
         self.__actors_url = f'{self.__base_url}actors/'
@@ -14,7 +15,7 @@ class ActorRepository:
     def get_actors(self):
         response = requests.get(
             self.__actors_url,
-            headers=self.__headers,
+            headers=self.__headers
         )
         if response.status_code == 200:
             return response.json()
@@ -34,4 +35,4 @@ class ActorRepository:
         if response.status_code == 401:
             logout()
             return None
-        raise Exception(f'Erro ao obter dados da API. Status code: {response.status_code}')
+        raise Exception(f'Erro ao cadastrar dados na API. Status code: {response.status_code}')
