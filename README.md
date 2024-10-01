@@ -2,11 +2,9 @@
 =====================
 
 ## Introduction
----------------
-
 Welcome to Flix API, a Streamlit app that allows users to register film genres, actors, films, ratings, and more.
 
-## Features
+## 					Features
 ------------
 
 * Register film genres
@@ -30,11 +28,7 @@ To use the Flix API, simply run the Streamlit app and follow the interactive pro
 * Built using Streamlit
 * API designed as a library for easy integration with other applications
 * Data storage and retrieval handled by PostgreSQL
---------
-## Contributing
 
-
-If you'd like to contribute to the development of Flix API, please [insert contribution guidelines or contact information].
 
 ## An illustrative photo of how the system will look.
 
