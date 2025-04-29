@@ -13,18 +13,6 @@ Este projeto foi pensado para facilitar o acesso, busca e organização de conte
   - Pandas
   - Streamlit
 
-## 📂 Estrutura do Projeto
-
-```plaintext
-flix_app/
-│
-├── src/                    # Código-fonte principal
-├── templates/              # Arquivos HTML para páginas dinâmicas
-├── static/                 # Arquivos estáticos (CSS, JS, imagens)
-├── tests/                  # Testes unitários e de integração
-└── README.md               # Documentação principal do projeto
-```
-
 ## 🛠️ Funcionalidades
 
 - Busca e organização de conteúdos.
