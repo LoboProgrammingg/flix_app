@@ -1,38 +1,83 @@
-## Flix API README
-=====================
+# Flix App
 
-## Introduction
-Welcome to Flix API, a Streamlit app that allows users to register film genres, actors, films, ratings, and more.
+Flix App é um projeto desenvolvido em Python para gerenciar e explorar conteúdos de streaming. O objetivo do repositório é fornecer uma base sólida para criar funcionalidades relacionadas a plataformas de filmes e séries.
 
-## 					Features
-------------
+## 📖 Descrição
 
-* Register film genres
-* Register actors
-* Register films with associated genres and actors
-* Register ratings for films
-* Display graphical representations of:
-	+ Total number of registered films
-	+ Number of films by genre
-	+ Total number of ratings submitted
-	+ Average rating (in stars) for all films
+Este projeto foi pensado para facilitar o acesso, busca e organização de conteúdos de streaming. Embora a descrição do projeto não esteja detalhada no momento, ele é altamente personalizável e pode ser usado como base para construir soluções inovadoras.
 
-## Getting Started
+## 🚀 Tecnologias Utilizadas
 
+- **Linguagem de Programação**: Python
+- **Frameworks e Ferramentas**:
+  - Pandas
+  - Streamlit
 
-To use the Flix API, simply run the Streamlit app and follow the interactive prompts to register data or view graphical representations of the data.
+## 📂 Estrutura do Projeto
 
-## Technical Details
+```plaintext
+flix_app/
+│
+├── src/                    # Código-fonte principal
+├── templates/              # Arquivos HTML para páginas dinâmicas
+├── static/                 # Arquivos estáticos (CSS, JS, imagens)
+├── tests/                  # Testes unitários e de integração
+└── README.md               # Documentação principal do projeto
+```
 
+## 🛠️ Funcionalidades
 
-* Built using Streamlit
-* API designed as a library for easy integration with other applications
-* Data storage and retrieval handled by PostgreSQL
+- Busca e organização de conteúdos.
+- Integração com APIs de streaming.
+- Gerenciamento de preferências do usuário.
+- Funcionalidades adicionais podem ser adicionadas conforme necessário.
 
+## 🏁 Como Começar
 
-## An illustrative photo of how the system will look.
+### Pré-requisitos
 
+Certifique-se de ter o Python instalado na versão 3.9 ou superior. Instale também as dependências do projeto utilizando o seguinte comando:
 
-![alt text](image.png)
+```bash
+pip install -r requirements.txt
+```
 
-### CREATED BY - MATHEUS LOBO CAMARA
+### Execução
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/LoboProgrammingg/flix_app.git
+   cd flix_app
+   ```
+
+2. Configure o ambiente (se necessário).
+
+3. Execute o projeto:
+
+   ```bash
+   python app.py
+   ```
+
+## 🐛 Problemas Conhecidos
+
+Atualmente, não há issues abertas para o projeto. Contribua relatando problemas ou sugerindo melhorias.
+
+## 🤝 Contribuindo
+
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (`git checkout -b minha-feature`).
+3. Faça o commit das suas alterações (`git commit -m 'Adiciona minha feature'`).
+4. Envie para a branch (`git push origin minha-feature`).
+5. Abra um Pull Request.
+
+## 📄 Licença
+
+Este projeto não possui uma licença oficial. Consulte o repositório para mais detalhes.
+
+## 🌟 Agradecimentos
+
+Obrigado por visitar o repositório! Se você gostou do projeto, deixe uma estrela ⭐.
+
+---
+Feito com 💻 por [LoboProgrammingg](https://github.com/LoboProgrammingg).
