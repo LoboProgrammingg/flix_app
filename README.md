@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ## 🐛 Problemas Conhecidos
 
-Atualmente, não há issues abertas para o projeto. Contribua relatando problemas ou sugerindo melhorias.
+Atualmente, há 5 issues abertas para o projeto. Contribua relatando problemas ou sugerindo melhorias.
 
 ## 🤝 Contribuindo
 
